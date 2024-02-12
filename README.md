@@ -14,7 +14,8 @@ Approach:
 4) Created a fast api which takes in a question as a input and outputs one of the five classes to which the conversation belongs to.
 5) Wrote simple test cases to makes sure the predict function is working as expected.
 
-
+![Screenshot](images/clare&me.png)
+![Screenshot](images/clare&me2.png)
 
 
 
