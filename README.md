@@ -17,5 +17,10 @@ Approach:
 ![Screenshot](images/clare&me.png)
 ![Screenshot](images/clare&me2.png)
 
+### Mission: Part 2
+
+![Screenshot](images/clare&me_task_2.png)
+
+
 
 
