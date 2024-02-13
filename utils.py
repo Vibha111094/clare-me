@@ -12,13 +12,12 @@ def load_checkpoint(load_path, model):
     return model
 
 def format_result(result):
-    if result==0:
-        return("Regular conversations")
-    elif result==1:
-        return("Product-related conversations")
-    elif result==2:
-        return("Subscription-related conversations")
-    elif result==3:
-        return("Suicide")
-    elif result==4:
-        return("Non-mental health topics")
+    result = result.item()
+    mapping = {
+        0: "Regular conversations",
+        1: "Product-related conversations",
+        2: "Subscription-related conversations",
+        3: "Suicide",
+        4: "Non-mental health topics"
+    }
+    return mapping.get(result)
