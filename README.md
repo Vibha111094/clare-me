@@ -17,6 +17,11 @@ Approach:
 ![Screenshot](images/clare&me.png)
 ![Screenshot](images/clare&me2.png)
 
+How to run? \
+Step 1: ```pip install -r requirements.txt``` \
+Step 2: Please download fine-tuned [model](https://drive.google.com/file/d/1AKCTkjpIWlWmE8KWbCnlAOjCJNdAIxQ4/view?usp=drive_link) \
+Step 3: ```uvicorn main:app```
+
 ### Mission: Part 2
 
 ![Screenshot](images/clare&me_task_2.png)
