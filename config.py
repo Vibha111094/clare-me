@@ -1,0 +1,1 @@
+bert_model = "bert-base-cased"

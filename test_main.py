@@ -6,7 +6,7 @@ client = TestClient(app)
 
 
 def test_predict():
-    conversation = {"question": "How do I know if my suicidal thoughts are a result of a mental health condition?"}
+    conversation = {"question": "I am having morbid thoughts."}
     response = client.post("/predict", json=conversation)
     assert response.status_code == 200
     assert response.json() == "Suicide"
