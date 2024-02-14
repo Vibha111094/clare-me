@@ -25,6 +25,8 @@ Step 3: ```uvicorn main:app```
 
 ### Mission: Part 2
 
+- Explanation to be followed during the discussion.
+
 ![Screenshot](images/clare&me_task_2.png)
 
 
